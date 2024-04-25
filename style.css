@@ -4,15 +4,15 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #e2e2e2;
+  
 }
-.header__content{
+.header__content {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 50vh;
-    padding: 10px;
-
+    justify-content: space-evenly;
+    padding: 10px 2px;
 }
+
 .header__container{
     background-color: white;
     color: white;
@@ -26,7 +26,9 @@ body {
     color: #3b5bdb;
 }
 
+
 .header__input--search {
+    
   border-style: none;
   border-radius: 4px;
   padding: 2vh;

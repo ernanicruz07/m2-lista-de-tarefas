@@ -11,7 +11,7 @@ const tasks = [
   {title: "Assistir a um documentário interessante", type: "Normal"},
 ];
 
-function createTaskItem(task, index) {
+function createTaskItem(task) {
   const li = document.createElement('li');
   li.classList.add('task__item');
   
@@ -52,6 +52,7 @@ function createTaskItem(task, index) {
   
   return li;
 }
+
 
 function renderElements(tasks) {
   const tasksList = document.querySelector('.tasks__list');
